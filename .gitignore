@@ -1,0 +1,6 @@
+/.vscode/*
+/style/*.scss
+/style/components/*
+/style/pages/*
+/style/transitions/*
+/vendor/bootstrap/*
