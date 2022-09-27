@@ -10833,7 +10833,7 @@ h4 {
 
 hr {
   width: 257px;
-  border: 2px solid #4E4039;
+  border: 2px solid #A08F86;
   border-radius: 1px;
   margin-bottom: 46px;
 }
@@ -11382,21 +11382,24 @@ footer ul, footer li {
 }
 
 .praktikum-header {
-  background-color: #171047;
+  background-color: #FEF8F5;
   padding-bottom: 40px;
 }
 
 .praktikum-header a {
-  color: white;
+  color: #A08F86;
 }
 
 .praktikum-header h2 {
   text-align: center;
-  color: white;
+  color: #4E4039;
+  font-weight: bold;
 }
 
 .praktikum-header h4 {
   padding-top: 0;
+  color: #A08F86;
+  font-weight: normal;
 }
 
 .praktikum-header .breadcrumb {
@@ -11407,7 +11410,7 @@ footer ul, footer li {
 .praktikum-header .squere {
   width: 80px;
   height: 80px;
-  border: 2px solid white;
+  border: 2px solid #A08F86;
   display: inline-block;
   text-align: center;
   padding-top: 16px;
@@ -11431,7 +11434,7 @@ footer ul, footer li {
   margin-top: 26px;
   margin-bottom: 5%;
   padding: 14px;
-  border: 4px dashed #171047;
+  border: 4px dashed #4E4039;
 }
 
 .page-praktikum .tujuan-praktikum .thumbnail {
@@ -11459,7 +11462,7 @@ footer ul, footer li {
 }
 
 .page-praktikum .list-praktikum a {
-  color: black;
+  color: #A08F86;
 }
 
 .page-praktikum .list-praktikum a:hover {
@@ -11469,9 +11472,9 @@ footer ul, footer li {
 .page-praktikum .list-praktikum .card {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border: 1px solid #171047;
+  border: 1px solid #4E4039;
   margin-bottom: 24px;
-  color: #171047;
+  color: #A08F86;
 }
 
 .page-praktikum .list-praktikum .card .card-title {
@@ -11503,13 +11506,26 @@ footer ul, footer li {
   padding-bottom: 20px;
   font-weight: bold;
   font-size: 20px;
+  color: #4E4039;
 }
 
 .praktikum-content .sidebar-title hr {
   width: auto;
-  border: 2px solid #2C2458;
+  border: 2px solid #A08F86;
   border-radius: 1px;
   margin-bottom: 0;
+}
+
+.praktikum-content .sidebar-evaluasi {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.praktikum-content .sidebar-evaluasi .btn-evaluasi {
+  background-color: #EB5D1E;
+  border-radius: 22px;
+  padding: 8px 24px;
+  color: white;
 }
 
 .praktikum-content .sidebar-content {
@@ -11557,6 +11573,31 @@ footer ul, footer li {
 .praktikum-content .sidebar-content .video-title {
   font-size: 14px;
   padding-left: 12px;
+}
+
+.praktikum-content .video-content {
+  width: 100%;
+  height: 512px;
+}
+
+.praktikum-content .praktikum-container {
+  padding: 28px;
+  margin-top: 30px;
+  background-color: #FEF8F5;
+  overflow: auto;
+  max-height: 500px;
+  border: 1px solid #4e4039;
+}
+
+.praktikum-content .praktikum-soal {
+  margin-top: 20px;
+}
+
+.praktikum-content .praktikum-soal .btn-soal {
+  background-color: #EB5D1E;
+  border-radius: 8px;
+  padding: 16px 40px;
+  color: white;
 }
 
 .store-breadcrumbs .breadcrumb {
